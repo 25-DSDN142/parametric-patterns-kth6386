@@ -9,46 +9,118 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let midX = 50;
+let midY = 50;
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
-}
+let numPetals = 1;
+let innerRadius = 10; 
+let outerRadius = 20; 
 
 /////////////////////////////////
 
 Wallpaper 2:
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let midX = 100;
+let midY = 100;
 
-function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
-}
+let numPetals = 3;
+let innerRadius = 10; 
+let outerRadius = 50; 
+
+/////////////////////////////////
+
+Wallpaper 3:
+
+let midX = 100;
+let midY = 100;
+
+
+let numPetals = 5;
+let innerRadius = 10; 
+let outerRadius = 50; 
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+let midX = 100;
+let midY = 100;
+
+
+let numPetals = 7;
+let innerRadius = 10; 
+let outerRadius = 50; 
+
+/////////////////////////////////
+
+Wallpaper 5:
+
+let midX = 100;
+let midY = 100;
+
+
+let numPetals = 8;
+let innerRadius = 10; 
+let outerRadius = 50; 
+
+/////////////////////////////////
+
+Wallpaper 6:
+
+let midX = 100;
+let midY = 100;
+
+
+let numPetals = 9;
+let innerRadius = 10; 
+let outerRadius = 50; 
+
+/////////////////////////////////
+
+Wallpaper 7:
+
+let midX = 100;
+let midY = 100;
+
+
+let numPetals = 10;
+let innerRadius = 10; 
+let outerRadius = 80; 
+
+/////////////////////////////////
+
+Wallpaper 8:
+
+let midX = 50;
+let midY = 50;
+
+
+let numPetals = 10;
+let innerRadius = 10; 
+let outerRadius = 100; 
+
+/////////////////////////////////
+
+Wallpaper 9:
+
+let midX = 50;
+let midY = 50;
+
+
+let numPetals = 15;
+let innerRadius = 20; 
+let outerRadius = 20; 
+
+
+
+
+
+
+
+
+
+
+
+
