@@ -7,6 +7,7 @@ let midY = 100;
 let numPetals = 5;
 let innerRadius = 10; 
 let outerRadius = 50; 
+let partyMode = false; 
 
 //if //requirement
 
@@ -165,6 +166,7 @@ function drawDancheongPattern() {
   
   // 재미있는 효과: 꽃잎이 8개 이상일 때만 무지개 원과 별 추가
   if (numPetals > 7) {
+    partyMode = true;
   // 무지개 원
   let rainbowColors = ['#e74c3c','#f1c40f','#2ecc71','#3498db','#9b59b6','#f39c12','#1abc9c'];
   for (let r = 7; r >= 1; r--) {
